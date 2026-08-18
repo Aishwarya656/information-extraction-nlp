@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Information Extraction System</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<h1>Information Extraction System</h1>
+
+<p>
+Enter any English text and extract:
+</p>
+
+<ul>
+<li>Named Entities (NER)</li>
+<li>Part-of-Speech Tags</li>
+</ul>
+
+
+<form action="/extract" method="POST">
+
+
+<textarea 
+name="text"
+placeholder="Enter text here..."
+required></textarea>
+
+
+<button type="submit">
+Extract Information
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</body>
+
+</html>
